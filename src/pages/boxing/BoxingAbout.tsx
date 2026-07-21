@@ -1,14 +1,11 @@
 // src/pages/boxing/BoxingAbout.tsx
 // TODO: Build this page fully — Coach bio, army career, achievements, YouTube embed
 
-import { useNavigate } from 'react-router-dom';
 
 const COACH_PHOTO = '/images/boxing/Coach_Army.png';
-const ARMY_PHOTO = '/images/boxing/Coach_Army.png'; // TODO: Replace with actual army photo of coach
 
 
 export default function BoxingAbout() {
-  const navigate = useNavigate();
 
   return (
     <div className="bg-boxing-dark min-h-screen text-white py-16">

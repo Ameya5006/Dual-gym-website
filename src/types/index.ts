@@ -18,12 +18,15 @@ export type GymType = 'boxing' | 'nisha';
 export type PlanDuration = 'monthly' | '3month' | '6month' | 'annual';
 export type Gender = 'male' | 'female' | 'other' | 'prefer-not-to-say';
 export interface PaymentRecord {
+  id: string;
+  planId: string;
   date: string;
   amount: number;
   planName: string;
+  paidAt: string;
+  newExpiryDate: string;
+  verifiedBy: string;
   note?: string;
-  id: string;
-  planId: string;
 }
 export interface AdminNotification {
   id?: string;

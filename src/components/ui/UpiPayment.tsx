@@ -17,7 +17,7 @@ interface UpiPaymentProps {
 }
 
 export default function UpiPayment({
-  amount, membershipId, memberName, gym, onPaymentSubmitted, accentClass
+amount, membershipId, gym, onPaymentSubmitted, accentClass
 }: UpiPaymentProps) {
   const [txnId,    setTxnId]    = useState('');
   const [step,     setStep]     = useState<'scan' | 'confirm'>('scan');

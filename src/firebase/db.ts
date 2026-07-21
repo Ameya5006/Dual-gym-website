@@ -111,6 +111,7 @@ export async function markAsPaid(uid: string, note?: string): Promise<void> {
 
   const payRecord: PaymentRecord = {
     id:            generatePaymentId(),
+    date: new Date().toISOString(),
     planId:        member.planId,
     planName:      member.planName,
     amount:        member.paymentAmount,
@@ -160,6 +161,7 @@ export async function processRenewal(
     id: generatePaymentId(),
     planId, planName, amount,
     paidAt:        new Date().toISOString(),
+    date: new Date().toISOString(),
     newExpiryDate,
     verifiedBy:    'admin',
     note:          note ?? 'Renewal confirmed',

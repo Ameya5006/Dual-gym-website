@@ -8,7 +8,7 @@ A full-stack web application built for **Fitness First Boxing Club** and **Nisha
 
 ## 🌐 Live Demo
 
-> [Link to deployed site]
+> [[Link to deployed site]](https://boxingguruji.vercel.app/)
 
 **Test credentials (read-only demo):**
 - Member login: `FFBC-202506-DEMO` / `9999999999`
@@ -170,14 +170,7 @@ The `GOOGLE_APPS_SCRIPT.js` file in the project root contains the full Apps Scri
 
 ---
 
-## 👨‍💻 Author
 
-**[Your Name]**
-- Portfolio: [your portfolio link]
-- LinkedIn: [your linkedin]
-- GitHub: [your github]
-
----
 
 ## 📄 License
 
